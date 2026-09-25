@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Dra. Ana Carolina Mello | Psicóloga Clínica — São Paulo</title>
+  <meta name="description" content="Psicóloga clínica com atendimento presencial e online. Especialista em ansiedade, depressão, terapia de casal e desenvolvimento pessoal. Agende sua consulta." />
+  <meta name="keywords" content="psicóloga, psicoterapia, ansiedade, depressão, terapia cognitivo-comportamental, atendimento online, São Paulo" />
+  <meta name="author" content="Dra. Ana Carolina Mello" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dra. Ana Carolina Mello | Psicóloga Clínica" />
+  <meta property="og:description" content="Um espaço seguro para o seu crescimento pessoal e bem-estar emocional." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════ -->
+  <header id="inicio" class="navbar" role="banner">
+    <div class="container navbar__inner">
+
+      <a href="#inicio" class="navbar__logo" id="logo-navbar" aria-label="Dra. Ana Carolina Mello - Início">
+        <span class="navbar__logo-nome">Dra. Ana Carolina Mello</span>
+        <span class="navbar__logo-crp">CRP 06/123456 · Psicóloga Clínica</span>
+      </a>
+
+      <nav class="navbar__menu" id="menu-principal" role="navigation" aria-label="Menu principal">
+        <a href="#inicio"      class="navbar__link" id="nav-inicio">Início</a>
+        <a href="#sobre"       class="navbar__link" id="nav-sobre">Sobre</a>
+        <a href="#tratamentos" class="navbar__link" id="nav-tratamentos">Tratamentos</a>
+        <a href="#depoimentos" class="navbar__link" id="nav-depoimentos">Depoimentos</a>
+        <a href="#contato"     class="navbar__link" id="nav-contato">Contato</a>
+        <a href="https://wa.me/5511999998888?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta!"
+           class="navbar__link navbar__cta"
+           id="nav-cta"
+           target="_blank"
+           rel="noopener"
+           aria-label="Agendar consulta pelo WhatsApp">
+          📅 Agendar Consulta
+        </a>
+      </nav>
+
+      <button class="navbar__toggle"
+              id="btn-menu-mobile"
+              aria-label="Abrir menu"
+              aria-expanded="false"
+              aria-controls="menu-principal"
+              onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='false'?'true':'false'); document.getElementById('menu-principal').classList.toggle('aberto');">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ══════════════════════════════════
+         HERO
+    ══════════════════════════════════ -->
+    <section id="hero-section" class="hero" aria-labelledby="hero-titulo">
+      <div class="hero__bg" role="img" aria-label="Consultório acolhedor com luz natural"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__overlay-pattern" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+
+        <!-- Texto Hero -->
+        <div class="hero__texto animate-fadeup">
+
+          <div class="hero__tag">
+            <span class="hero__tag-dot" aria-hidden="true"></span>
+            Psicóloga Clínica · CRP 06/123456
+          </div>
+
+          <h1 id="hero-titulo" class="hero__titulo">
+            Um espaço seguro para o seu
+            <em>crescimento pessoal</em>
+          </h1>
+
+          <p class="hero__subtitulo">
+            Com empatia, escuta ativa e uma abordagem científica, te acompanho na jornada de autoconhecimento e bem-estar emocional — presencialmente ou online.
+          </p>
+
+          <div class="hero__acoes">
+            <a href="https://wa.me/5511999998888?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta!"
+               class="btn-primario"
+               id="btn-hero-agendar"
+               target="_blank"
+               rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.09.54 4.05 1.49 5.765L0 24l6.405-1.471A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.648-.52-5.15-1.42l-.37-.22-3.8.873.91-3.71-.24-.38A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+              </svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a href="#sobre" class="btn-secundario" id="btn-hero-conhecer">
+              Conhecer mais
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 5v14M5 12l7 7 7-7"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero__stats" role="list" aria-label="Estatísticas">
+            <div class="hero__stat" role="listitem">
+              <div class="hero__stat-num">+500</div>
+              <div class="hero__stat-label">Vidas transformadas</div>
+            </div>
+            <div class="hero__stat" role="listitem">
+              <div class="hero__stat-num">8+</div>
+              <div class="hero__stat-label">Anos de experiência</div>
+            </div>
+            <div class="hero__stat" role="listitem">
+              <div class="hero__stat-num">100%</div>
+              <div class="hero__stat-label">Sigilo garantido</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Foto Hero -->
+        <div class="hero__foto-wrap">
+          <div class="hero__foto-container">
+            <div class="hero__foto-bg" aria-hidden="true"></div>
+            <div class="hero__foto-ring" aria-hidden="true"></div>
+            <img src="assets/images/foto-psicologa.jpg"
+                 alt="Dra. Ana Carolina Mello, psicóloga clínica, sorrindo em seu consultório"
+                 class="hero__foto"
+                 width="440"
+                 height="520"
+                 loading="eager" />
+            <div class="hero__badge" aria-hidden="true">
+              <div class="hero__badge-icon">🌿</div>
+              <div class="hero__badge-texto">Atendimento Online</div>
+              <div class="hero__badge-sub">Para todo o Brasil</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════
+         SOBRE
+    ══════════════════════════════════ -->
+    <section id="sobre" class="sobre" aria-labelledby="sobre-titulo">
+      <div class="container sobre__inner">
+
+        <!-- Foto Sobre -->
+        <div class="sobre__foto-wrap animate-left">
+          <div class="sobre__foto-fundo" aria-hidden="true"></div>
+          <img src="assets/images/foto-psicologa.jpg"
+               alt="Dra. Ana Carolina Mello em seu consultório"
+               class="sobre__foto"
+               width="500"
+               height="540"
+               loading="lazy" />
+          <div class="sobre__credencial" aria-label="CRP 06/123456 — Psicóloga registrada">
+            <div class="sobre__credencial-num">CRP</div>
+            <div class="sobre__credencial-label">06/123456</div>
+          </div>
+        </div>
+
+        <!-- Conteúdo Sobre -->
+        <div class="sobre__conteudo animate-right">
+
+          <span class="secao-tag">Sobre mim</span>
+          <h2 id="sobre-titulo" class="secao-titulo">
+            Cuidando da sua <span>saúde mental</span> com ciência e afeto
+          </h2>
+
+          <p class="sobre__texto">
+            Sou a Dra. Ana Carolina Mello, psicóloga clínica com mais de 8 anos de experiência acompanhando pessoas em suas jornadas de autoconhecimento, superação e bem-estar emocional.
+          </p>
+          <p class="sobre__texto">
+            Acredito que cada pessoa é única, e por isso ofereço um atendimento personalizado, acolhedor e baseado em evidências científicas. Minha missão é criar um espaço seguro onde você possa se expressar livremente e encontrar caminhos para uma vida mais plena.
+          </p>
+
+          <div class="sobre__formacao" role="list" aria-label="Formação acadêmica">
+            <p class="sobre__formacao-titulo">Formação & Especialidades</p>
+            <div class="sobre__formacao-lista">
+
+              <div class="sobre__formacao-item animate-fadeup delay-1" role="listitem">
+                <span class="sobre__formacao-icon" aria-hidden="true">🎓</span>
+                <div>
+                  <div class="sobre__formacao-texto">Graduação em Psicologia</div>
+                  <div class="sobre__formacao-sub">Universidade de São Paulo (USP) · 2014</div>
+                </div>
+              </div>
+
+              <div class="sobre__formacao-item animate-fadeup delay-2" role="listitem">
+                <span class="sobre__formacao-icon" aria-hidden="true">📜</span>
+                <div>
+                  <div class="sobre__formacao-texto">Especialização em TCC — Terapia Cognitivo-Comportamental</div>
+                  <div class="sobre__formacao-sub">Instituto de Psicologia Avançada · 2016</div>
+                </div>
+              </div>
+
+              <div class="sobre__formacao-item animate-fadeup delay-3" role="listitem">
+                <span class="sobre__formacao-icon" aria-hidden="true">🔬</span>
+                <div>
+                  <div class="sobre__formacao-texto">Mestrado em Saúde Mental e Bem-estar</div>
+                  <div class="sobre__formacao-sub">PUC-SP · 2019</div>
+                </div>
+              </div>
+
+              <div class="sobre__formacao-item animate-fadeup delay-4" role="listitem">
+                <span class="sobre__formacao-icon" aria-hidden="true">💡</span>
+                <div>
+                  <div class="sobre__formacao-texto">Formação em Mindfulness e Terapia de Aceitação (ACT)</div>
+                  <div class="sobre__formacao-sub">ABBT Brasil · 2021</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="sobre__abordagem" role="list" aria-label="Abordagens terapêuticas">
+            <span class="sobre__tag" role="listitem">TCC</span>
+            <span class="sobre__tag" role="listitem">ACT</span>
+            <span class="sobre__tag" role="listitem">Mindfulness</span>
+            <span class="sobre__tag" role="listitem">Psicologia Positiva</span>
+            <span class="sobre__tag" role="listitem">Abordagem Humanista</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════
+         TRATAMENTOS
+    ══════════════════════════════════ -->
+    <section id="tratamentos" class="tratamentos" aria-labelledby="tratamentos-titulo">
+      <div class="container">
+
+        <header class="tratamentos__header">
+          <span class="secao-tag">Especialidades</span>
+          <h2 id="tratamentos-titulo" class="secao-titulo">
+            Como posso te <span>ajudar</span>
+          </h2>
+          <p class="secao-subtitulo">
+            Ofereço suporte especializado em diversas áreas da saúde mental, com tratamentos baseados em evidências científicas.
+          </p>
+        </header>
+
+        <div class="tratamentos__grid" role="list" aria-label="Lista de tratamentos">
+
+          <article class="card-tratamento animate-fadeup delay-1" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">🌊</div>
+            <h3 class="card-tratamento__titulo">Ansiedade & Estresse</h3>
+            <p class="card-tratamento__desc">
+              Técnicas comprovadas para gerenciar a ansiedade, reduzir o estresse crônico e recuperar a qualidade de vida com mais leveza e equilíbrio emocional.
+            </p>
+          </article>
+
+          <article class="card-tratamento animate-fadeup delay-2" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">🌤️</div>
+            <h3 class="card-tratamento__titulo">Depressão</h3>
+            <p class="card-tratamento__desc">
+              Acompanhamento cuidadoso e humanizado para enfrentar a depressão, com estratégias terapêuticas que promovem a retomada do prazer e da motivação.
+            </p>
+          </article>
+
+          <article class="card-tratamento animate-fadeup delay-3" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">💑</div>
+            <h3 class="card-tratamento__titulo">Terapia de Casal</h3>
+            <p class="card-tratamento__desc">
+              Mediação e orientação para casais que desejam melhorar a comunicação, resolver conflitos e fortalecer o vínculo afetivo e a cumplicidade.
+            </p>
+          </article>
+
+          <article class="card-tratamento animate-fadeup delay-4" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">✨</div>
+            <h3 class="card-tratamento__titulo">Autoconhecimento</h3>
+            <p class="card-tratamento__desc">
+              Processo de desenvolvimento pessoal que te ajuda a compreender seus padrões, valores e potenciais, construindo uma versão mais autêntica de você.
+            </p>
+          </article>
+
+          <article class="card-tratamento animate-fadeup delay-5" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">🕊️</div>
+            <h3 class="card-tratamento__titulo">Luto & Perdas</h3>
+            <p class="card-tratamento__desc">
+              Suporte acolhedor para quem enfrenta perdas significativas, ajudando a elaborar o luto e a encontrar forças para seguir em frente com esperança.
+            </p>
+          </article>
+
+          <article class="card-tratamento animate-fadeup delay-6" role="listitem">
+            <div class="card-tratamento__icone" aria-hidden="true">🔓</div>
+            <h3 class="card-tratamento__titulo">Fobias & TOC</h3>
+            <p class="card-tratamento__desc">
+              Tratamento eficaz para fobias específicas e transtorno obsessivo-compulsivo, utilizando técnicas de exposição gradual e reestruturação cognitiva.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════
+         DEPOIMENTOS
+    ══════════════════════════════════ -->
+    <section id="depoimentos" class="depoimentos" aria-labelledby="depoimentos-titulo">
+      <div class="container">
+
+        <header class="depoimentos__header">
+          <span class="secao-tag">Depoimentos</span>
+          <h2 id="depoimentos-titulo" class="secao-titulo">
+            O que dizem meus <span>pacientes</span>
+          </h2>
+          <p class="secao-subtitulo">
+            Histórias reais de pessoas que encontraram um novo caminho através da terapia.
+          </p>
+        </header>
+
+        <div class="depoimentos__grid" role="list" aria-label="Depoimentos de pacientes">
+
+          <article class="card-depoimento animate-fadeup delay-1" role="listitem">
+            <div class="card-depoimento__estrelas" aria-label="5 estrelas">⭐⭐⭐⭐⭐</div>
+            <div class="card-depoimento__aspas" aria-hidden="true">"</div>
+            <p class="card-depoimento__texto">
+              A Dra. Ana Carolina mudou a minha vida. Cheguei devastada pela ansiedade e hoje consigo enfrentar situações que antes me paralisavam. O acolhimento e a competência dela são incomparáveis.
+            </p>
+            <div class="card-depoimento__rodape">
+              <div class="card-depoimento__avatar" aria-hidden="true">M</div>
+              <div>
+                <div class="card-depoimento__info-nome">Mariana S.</div>
+                <div class="card-depoimento__info-tipo">Paciente — Ansiedade · 2 anos de acompanhamento</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-depoimento animate-fadeup delay-2" role="listitem">
+            <div class="card-depoimento__estrelas" aria-label="5 estrelas">⭐⭐⭐⭐⭐</div>
+            <div class="card-depoimento__aspas" aria-hidden="true">"</div>
+            <p class="card-depoimento__texto">
+              Eu e meu marido estávamos à beira do divórcio quando começamos a terapia de casal. Em poucos meses, aprendemos a nos comunicar de verdade. Hoje nossa relação é mais forte do que nunca.
+            </p>
+            <div class="card-depoimento__rodape">
+              <div class="card-depoimento__avatar" aria-hidden="true">R</div>
+              <div>
+                <div class="card-depoimento__info-nome">Renata & Felipe</div>
+                <div class="card-depoimento__info-tipo">Pacientes — Terapia de Casal · 8 meses</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card-depoimento animate-fadeup delay-3" role="listitem">
+            <div class="card-depoimento__estrelas" aria-label="5 estrelas">⭐⭐⭐⭐⭐</div>
+            <div class="card-depoimento__aspas" aria-hidden="true">"</div>
+            <p class="card-depoimento__texto">
+              Depois de perder minha mãe, senti que não conseguia continuar. A Dra. Ana Carolina me ajudou a entender o luto e a encontrar forças que eu não sabia que tinha. Serei eternamente grata.
+            </p>
+            <div class="card-depoimento__rodape">
+              <div class="card-depoimento__avatar" aria-hidden="true">C</div>
+              <div>
+                <div class="card-depoimento__info-nome">Camila P.</div>
+                <div class="card-depoimento__info-tipo">Paciente — Luto & Perdas · 1 ano</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════
+         CONTATO
+    ══════════════════════════════════ -->
+    <section id="contato" class="contato" aria-labelledby="contato-titulo">
+      <div class="container">
+
+        <div class="contato__inner">
+
+          <!-- Informações de Contato -->
+          <div class="contato__info animate-left">
+
+            <span class="secao-tag">Contato</span>
+            <h2 id="contato-titulo" class="secao-titulo">
+              Vamos dar o <span>primeiro passo</span> juntos?
+            </h2>
+
+            <p class="contato__texto">
+              Agendar sua primeira sessão é simples e sem compromisso. Entre em contato pelo canal de sua preferência e vamos conversar sobre como posso te ajudar.
+            </p>
+
+            <address class="contato__cards" aria-label="Informações de contato">
+
+              <a href="https://wa.me/5511999998888?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta!"
+                 class="contato__card"
+                 id="contato-whatsapp"
+                 target="_blank"
+                 rel="noopener"
+                 aria-label="Contato pelo WhatsApp: (11) 9 9999-8888">
+                <div class="contato__card-icon contato__card-icon--whatsapp" aria-hidden="true">💬</div>
+                <div>
+                  <div class="contato__card-label">WhatsApp</div>
+                  <div class="contato__card-valor">(11) 9 9999-8888</div>
+                </div>
+              </a>
+
+              <a href="mailto:contato@draanacarolina.com.br"
+                 class="contato__card"
+                 id="contato-email"
+                 aria-label="Enviar e-mail para contato@draanacarolina.com.br">
+                <div class="contato__card-icon contato__card-icon--email" aria-hidden="true">✉️</div>
+                <div>
+                  <div class="contato__card-label">E-mail</div>
+                  <div class="contato__card-valor">contato@draanacarolina.com.br</div>
+                </div>
+              </a>
+
+              <div class="contato__card" aria-label="Endereço do consultório">
+                <div class="contato__card-icon contato__card-icon--local" aria-hidden="true">📍</div>
+                <div>
+                  <div class="contato__card-label">Consultório</div>
+                  <div class="contato__card-valor">Av. Paulista, 1000 — Bela Vista, São Paulo/SP</div>
+                </div>
+              </div>
+
+              <div class="contato__card" aria-label="Atendimento online disponível">
+                <div class="contato__card-icon contato__card-icon--online" aria-hidden="true">💻</div>
+                <div>
+                  <div class="contato__card-label">Online</div>
+                  <div class="contato__card-valor">Atendimento para todo o Brasil</div>
+                </div>
+              </div>
+
+            </address>
+
+            <div class="contato__modalidades" role="list" aria-label="Modalidades de atendimento">
+              <div class="contato__modalidade" role="listitem">
+                <span aria-hidden="true">🏢</span> Presencial
+              </div>
+              <div class="contato__modalidade" role="listitem">
+                <span aria-hidden="true">🌐</span> Online (Videoconferência)
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Formulário -->
+          <div class="animate-right">
+            <form class="contato__form"
+                  id="form-contato"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  aria-label="Formulário de agendamento"
+                  novalidate>
+
+              <h3 class="contato__form-titulo">Agendar primeira consulta</h3>
+              <p class="contato__form-sub">Preencha o formulário e entro em contato em até 24h ⚡</p>
+
+              <!-- Web3Forms Access Key -->
+              <input type="hidden" name="access_key" value="f856b67f-231a-4298-a4db-10be24ec3c89" />
+              <!-- Assunto do e-mail recebido -->
+              <input type="hidden" name="subject" value="Nova solicitação de agendamento — Site" />
+              <!-- Honeypot anti-spam -->
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+              <!-- Mensagem de resultado (sucesso / erro) -->
+              <div id="form-resultado" class="form-resultado" aria-live="polite" role="alert"></div>
+
+              <div class="form-row">
+                <div class="form-grupo">
+                  <label for="nome">Nome completo</label>
+                  <input type="text"
+                         id="nome"
+                         name="name"
+                         placeholder="Seu nome"
+                         required
+                         autocomplete="name" />
+                  <span class="form-erro" id="erro-nome"></span>
+                </div>
+                <div class="form-grupo">
+                  <label for="telefone">Telefone / WhatsApp</label>
+                  <input type="tel"
+                         id="telefone"
+                         name="phone"
+                         placeholder="(11) 9 0000-0000"
+                         autocomplete="tel" />
+                </div>
+              </div>
+
+              <div class="form-grupo">
+                <label for="email">E-mail</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="seu@email.com"
+                       required
+                       autocomplete="email" />
+                <span class="form-erro" id="erro-email"></span>
+              </div>
+
+              <div class="form-grupo">
+                <label for="modalidade">Modalidade de atendimento</label>
+                <select id="modalidade" name="modalidade">
+                  <option value="">Selecione uma modalidade</option>
+                  <option value="presencial">Presencial — Av. Paulista, SP</option>
+                  <option value="online">Online (Videoconferência)</option>
+                </select>
+              </div>
+
+              <div class="form-grupo">
+                <label for="assunto">Como posso te ajudar?</label>
+                <select id="assunto" name="assunto">
+                  <option value="">Selecione o principal motivo</option>
+                  <option value="ansiedade">Ansiedade & Estresse</option>
+                  <option value="depressao">Depressão</option>
+                  <option value="casal">Terapia de Casal</option>
+                  <option value="autoconhecimento">Autoconhecimento / Desenvolvimento Pessoal</option>
+                  <option value="luto">Luto & Perdas</option>
+                  <option value="fobia">Fobias & TOC</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+
+              <div class="form-grupo">
+                <label for="mensagem">Mensagem (opcional)</label>
+                <textarea id="mensagem"
+                          name="message"
+                          placeholder="Conte um pouco mais sobre o que está sentindo ou o que busca na terapia…"
+                          rows="4"></textarea>
+              </div>
+
+              <button type="submit"
+                      class="btn-primario btn-form"
+                      id="btn-enviar-form"
+                      aria-label="Enviar solicitação de agendamento">
+                <span id="btn-texto">Enviar Solicitação</span>
+                <svg id="btn-icone" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"/>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+                <svg id="btn-spinner" class="form-spinner" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true" style="display:none">
+                  <path d="M12 2a10 10 0 0 1 10 10"/>
+                </svg>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer class="footer" role="contentinfo" aria-label="Rodapé">
+    <div class="container">
+
+      <div class="footer__inner">
+
+        <!-- Marca -->
+        <div>
+          <p class="footer__marca-nome">Dra. Ana Carolina Mello</p>
+          <p class="footer__marca-crp">CRP 06/123456 · Psicóloga Clínica</p>
+          <p class="footer__marca-desc">
+            Cuidando da sua saúde mental com ciência, empatia e dedicação. Um espaço seguro para o seu crescimento pessoal.
+          </p>
+        </div>
+
+        <!-- Links Rápidos -->
+        <nav aria-label="Links rápidos do rodapé">
+          <p class="footer__titulo-col">Navegação</p>
+          <ul class="footer__links">
+            <li><a href="#inicio"      class="footer__link" id="footer-nav-inicio">Início</a></li>
+            <li><a href="#sobre"       class="footer__link" id="footer-nav-sobre">Sobre mim</a></li>
+            <li><a href="#tratamentos" class="footer__link" id="footer-nav-tratamentos">Tratamentos</a></li>
+            <li><a href="#depoimentos" class="footer__link" id="footer-nav-depoimentos">Depoimentos</a></li>
+            <li><a href="#contato"     class="footer__link" id="footer-nav-contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Redes Sociais -->
+        <div>
+          <p class="footer__titulo-col">Redes Sociais</p>
+          <div class="footer__redes" role="list" aria-label="Redes sociais">
+
+            <a href="https://instagram.com/"
+               class="footer__rede"
+               id="footer-instagram"
+               target="_blank"
+               rel="noopener"
+               role="listitem"
+               aria-label="Instagram da Dra. Ana Carolina Mello">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+
+            <a href="https://linkedin.com/"
+               class="footer__rede"
+               id="footer-linkedin"
+               target="_blank"
+               rel="noopener"
+               role="listitem"
+               aria-label="LinkedIn da Dra. Ana Carolina Mello">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+
+            <a href="https://wa.me/5511999998888"
+               class="footer__rede"
+               id="footer-whatsapp"
+               target="_blank"
+               rel="noopener"
+               role="listitem"
+               aria-label="WhatsApp da Dra. Ana Carolina Mello">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.09.54 4.05 1.49 5.765L0 24l6.405-1.471A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.648-.52-5.15-1.42l-.37-.22-3.8.873.91-3.71-.24-.38A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+              </svg>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <hr class="footer__divider" />
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          © 2026 Dra. Ana Carolina Mello · CRP 06/123456 · Todos os direitos reservados.
+          Desenvolvido com <span>♥</span> em São Paulo.
+        </p>
+        <p class="footer__copy">
+          Sigilo ético garantido · Resolução CFP 11/2012
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════
+       BOTÃO WHATSAPP FLUTUANTE
+  ══════════════════════════════════ -->
+  <div class="whatsapp-float" role="complementary" aria-label="Contato rápido pelo WhatsApp">
+    <div class="whatsapp-float__ring" aria-hidden="true"></div>
+    <div class="whatsapp-float__ring" aria-hidden="true"></div>
+    <a href="https://wa.me/5511999998888?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta!"
+       class="whatsapp-float__btn"
+       id="btn-whatsapp-flutuante"
+       target="_blank"
+       rel="noopener"
+       aria-label="Agendar consulta pelo WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.09.54 4.05 1.49 5.765L0 24l6.405-1.471A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.648-.52-5.15-1.42l-.37-.22-3.8.873.91-3.71-.24-.38A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+      </svg>
+    </a>
+    <span class="whatsapp-float__label">Agendar consulta 💜</span>
+  </div>
+
+  <!-- ══════════════════════════════════
+       SCRIPT — FORMULÁRIO WEB3FORMS
+  ══════════════════════════════════ -->
+  <script>
+    (function () {
+      const form      = document.getElementById('form-contato');
+      const resultado = document.getElementById('form-resultado');
+      const btnTexto  = document.getElementById('btn-texto');
+      const btnIcone  = document.getElementById('btn-icone');
+      const btnSpinner= document.getElementById('btn-spinner');
+      const btnEnviar = document.getElementById('btn-enviar-form');
+
+      /* Utilitário: mostrar/esconder mensagem de resultado */
+      function mostrarResultado(tipo, mensagem) {
+        resultado.className = 'form-resultado form-resultado--' + tipo;
+        resultado.innerHTML = mensagem;
+        resultado.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      function limparResultado() {
+        resultado.className = 'form-resultado';
+        resultado.innerHTML = '';
+      }
+
+      /* Utilitário: marcar campo com erro */
+      function erroField(id, msg) {
+        var el = document.getElementById(id);
+        var span = document.getElementById('erro-' + id);
+        if (el) el.classList.add('campo-invalido');
+        if (span) span.textContent = msg;
+      }
+
+      function limparErros() {
+        document.querySelectorAll('.campo-invalido').forEach(function(el) {
+          el.classList.remove('campo-invalido');
+        });
+        document.querySelectorAll('.form-erro').forEach(function(el) {
+          el.textContent = '';
+        });
+      }
+
+      /* Estado de carregamento do botão */
+      function setBotaoCarregando(ativo) {
+        btnEnviar.disabled = ativo;
+        if (ativo) {
+          btnTexto.textContent  = 'Enviando…';
+          btnIcone.style.display  = 'none';
+          btnSpinner.style.display = 'inline-block';
+        } else {
+          btnTexto.textContent  = 'Enviar Solicitação';
+          btnIcone.style.display  = 'inline-block';
+          btnSpinner.style.display = 'none';
+        }
+      }
+
+      /* Validação customizada */
+      function validar() {
+        var valido = true;
+        limparErros();
+
+        var nome  = document.getElementById('nome');
+        var email = document.getElementById('email');
+
+        if (!nome.value.trim() || nome.value.trim().length < 2) {
+          erroField('nome', 'Por favor, informe seu nome completo.');
+          valido = false;
+        }
+
+        var reEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.value.trim() || !reEmail.test(email.value.trim())) {
+          erroField('email', 'Informe um e-mail válido.');
+          valido = false;
+        }
+
+        return valido;
+      }
+
+      /* Envio do formulário */
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        limparResultado();
+
+        if (!validar()) {
+          mostrarResultado('erro',
+            '<span>⚠️</span> Por favor, corrija os campos destacados antes de enviar.');
+          return;
+        }
+
+        setBotaoCarregando(true);
+
+        var dados = new FormData(form);
+
+        fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: dados
+        })
+        .then(function (res) { return res.json(); })
+        .then(function (json) {
+          if (json.success) {
+            mostrarResultado('sucesso',
+              '<span>✅</span> Mensagem enviada com sucesso! Entrarei em contato em até 24h. 💜');
+            form.reset();
+          } else {
+            mostrarResultado('erro',
+              '<span>❌</span> Algo deu errado. Tente novamente ou entre em contato pelo WhatsApp.');
+          }
+        })
+        .catch(function () {
+          mostrarResultado('erro',
+            '<span>❌</span> Não foi possível enviar. Verifique sua conexão e tente novamente.');
+        })
+        .finally(function () {
+          setBotaoCarregando(false);
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
